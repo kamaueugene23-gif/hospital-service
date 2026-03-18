@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Hospital Service</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Login</string>
+    <string name="login_username_hint">Enter Username</string>
+    <string name="login_password_hint">Enter Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_link">Don\'t have an account? Sign Up</string>
+
+    <!-- Registration Screen -->
+    <string name="register_title">Register</string>
+    <string name="register_username_hint">Choose a Username</string>
+    <string name="register_password_hint">Choose a Password</string>
+    <string name="register_button">Register</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_welcome">Welcome, %1$s!</string>
+    <string name="btn_request_service">Request Service</string>
+    <string name="btn_view_services">View Services</string>
+
+    <!-- Admin Panel -->
+    <string name="admin_dashboard_title">Admin Dashboard</string>
+    <string name="btn_add_service">Add Service</string>
+    <string name="btn_remove_service">Remove Service</string>
+    <string name="btn_delete_user">Delete User</string>
+    <string name="btn_view_requests">View Requests</string>
+
+    <!-- Add/Remove Service -->
+    <string name="service_name_hint">Service Name</string>
+    <string name="service_desc_hint">Service Description</string>
+    <string name="btn_save_service">Save Service</string>
+    <string name="btn_update_service">Update Service</string>
+    <string name="btn_delete_service">Delete Service</string>
+
+    <!-- Service Request -->
+    <string name="request_service_title">Request Service</string>
+    <string name="btn_submit_request">Submit Request</string>
+
+    <!-- Delete User -->
+    <string name="delete_user_title">Delete User</string>
+    <string name="delete_user_hint">Enter username to delete</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_empty_fields">Please fill all fields</string>
+    <string name="toast_login_success">Login Successful</string>
+    <string name="toast_login_failed">Invalid username or password</string>
+    <string name="toast_register_success">Registration Successful</string>
+    <string name="toast_register_failed">Username already exists</string>
+    <string name="toast_user_deleted">User deleted successfully</string>
+    <string name="toast_user_not_found">User not found</string>
+    <string name="toast_service_added">Service added successfully</string>
+    <string name="toast_service_deleted">Service deleted successfully</string>
+    <string name="toast_request_submitted">Service request submitted</string>
+</resources>

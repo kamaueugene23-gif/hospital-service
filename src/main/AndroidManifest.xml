@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hospitalservicerequest">
+
+    <!-- Permissions (if needed) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:supportsRtl="true">
+
+        <!-- Splash Activity (Main Launcher) -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".RegisterActivity" android:exported="false" />
+
+        <!-- User Activities -->
+        <activity android:name=".DashboardActivity" android:exported="false" />
+        <activity android:name=".RequestServiceActivity" android:exported="false" />
+
+        <!-- Admin Activities -->
+        <activity android:name=".AdminDashboardActivity" android:exported="false" />
+        <activity android:name=".ViewRequestsActivity" android:exported="false" />
+        <activity android:name=".ViewUsersActivity" android:exported="false" />
+        <activity android:name=".AddServiceActivity" android:exported="false" />
+        <activity android:name=".UpdateServiceActivity" android:exported="false" />
+        <activity android:name=".RemoveServiceActivity" android:exported="false" />
+        <activity android:name=".DeleteUserActivity" android:exported="false" />
+
+    </application>
+
+</manifest>

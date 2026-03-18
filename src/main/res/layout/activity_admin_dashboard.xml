@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/hospital_image"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Dashboard"
+            android:textColor="#3700B3"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnViewRequests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Requests"/>
+
+        <Button
+            android:id="@+id/btnAddService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Service"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:id="@+id/btnRemoveService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove Service"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnDeleteUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete User"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

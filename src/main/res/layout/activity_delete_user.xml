@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/hospital_image">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/et_username_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username to delete"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="30dp"
+        android:padding="12dp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btn_delete_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/et_username_delete"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
